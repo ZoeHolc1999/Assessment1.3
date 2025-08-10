@@ -48,3 +48,9 @@ section {
     border: 3px solid var(--c-cyan)
 }
 
+.flex-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
