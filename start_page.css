@@ -18,6 +18,11 @@
 
 html {
   background-color: var(--c-background-color);
+  max-width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 50px;
 }
 
 header {
@@ -64,5 +69,18 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 80px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
 }
