@@ -1,5 +1,5 @@
       :root {
-        --base-font-color: rgb(131,148,150);
+        --base-font-color: rgb(5, 68, 94);
         --secondary-font-color: rgb(88,110,117);
         --emphasised-font: rgb(147,161,161);
 
@@ -22,8 +22,23 @@ html {
 
 header {
   background-color: var(--c-background-highlights);
+  color: var(--base-font-color);
 }
 
 footer {
   background-color: var(--c-background-highlights);
+  color: var(--base-font-color);
 }
+
+main {
+    color: var(--base-font-color);
+}
+
+a {
+    color: var(--c-magenta);
+}
+
+a:hover {
+    color: var(--c-orange);
+}
+
