@@ -36,11 +36,11 @@ main {
     color: var(--base-font-color);
 }
 
-a {
+.special-link {
     color: var(--c-magenta);
 }
 
-a:hover {
+.special-link:hover {
     color: var(--c-orange);
 }
 
