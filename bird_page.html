@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Bird Selection</title>
+        <style>
+            :root {
+                --primary-color: rgb(247, 201, 182);
+                --secondary-color: rgb(251, 141, 160);
+                --bg-color: rgb(240, 225, 222);
+                --font-color: rgb(251, 108, 144);
+                --heading-color: rgb(251, 84, 144);
+            }
+            [data-theme="dark"]{
+                --primary-color: rgb(247, 201, 182);
+                --secondary-color: rgb(251, 141, 160);
+                --bg-color: rgb(240, 225, 222);
+                --font-color: rgb(251, 108, 144);
+                --heading-color: rgb(251, 84, 144);
+            }
+        </style>
     </head>
+
     <body>
+
         <header>
             <h1>Bird Selection</h1>
         </header>
+
     <main>
+
         <img id="Image" src="http://www.outgrabe.net/bird00.jpg" alt="Pardalote">
         <p id="Caption">Pardalote by fir0002 (CC-by-NC)</p>
+
     <div>
         <button onclick="DisplayBird('http://www.outgrabe.net/bird00.jpg','Pardalote by fir0002 (CC-by-NC)','Pardalote')">Pardalote </button>
         <button onclick="DisplayBird('http://www.outgrabe.net/bird01.jpg','Purple swamp hen by Toby Hudson (CC-by-SA)','Purple Swamp Hen')">Purple Swamp Hen </button>
@@ -17,14 +39,19 @@
         <button onclick="DisplayBird('http://www.outgrabe.net/bird03.jpg','Inland Thornbill by Peter Jacobs (CC-by-SA)','Inland Thornbill')">Inland Thornbill </button>
         <button onclick="DisplayBird('http://www.outgrabe.net/bird04.jpg','Rose Robin by JJ Harrison (CC-by-SA)','Rose Robin')">Rose Robin </button>
     </div>
+
     </main>
     
     <script>
+
         function DisplayBird(imageUrl,caption, altText) {
             document.getElementById("Image").src=imageUrl;
             document.getElementById("Image").alt=altText;
             document.getElementById("Caption").textContent=caption;
         }
+
     </script>
+
     </body>
+
 </html>
