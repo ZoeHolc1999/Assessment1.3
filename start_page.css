@@ -3,8 +3,8 @@
         --secondary-font-color: rgb(88,110,117);
         --emphasised-font: rgb(147,161,161);
 
-        --c-background-color: rgb(0, 43, 54);
-        --c-background-highlights: rgb(7, 54, 66);
+        --c-background-color: rgb(240, 225, 222);
+        --c-background-highlights: rgb(247, 201, 182);
 
         --c-yellow: rgb(181,137,  0);
         --c-orange: rgb(203, 75, 22);
@@ -15,3 +15,15 @@
         --c-cyan: rgb(42,161,152);
         --c-green: rgb(133,153,0);
       }
+
+html {
+  background-color: var(--c-background-color);
+}
+
+header {
+  background-color: var(--c-background-highlights);
+}
+
+footer {
+  background-color: var(--c-background-highlights);
+}
