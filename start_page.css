@@ -48,6 +48,18 @@ section {
     border: 3px solid var(--c-cyan)
 }
 
+aside {
+    color: var(--c-green);
+}
+
+.aside-link {
+    color: var(--c-red);
+}
+
+.aside-link:hover {
+    color: var(--c-blue);
+}
+
 .flex-list {
     display: flex;
     justify-content: center;
